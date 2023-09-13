@@ -6,6 +6,13 @@
 	<packaging>jar</packaging>
 	<name>Complexity Calculator</name>
 	<description>Calculates Cyclomatic Complexity (CC) and NPath Complexity (NPath) of java files and generates csv</description>
+	<distributionManagement>
+    		<repository>
+        		<id>github</id>
+        		<name>GitHub Packages</name>
+        		<url>https://maven.pkg.github.com/RafaelDuarteP/complexity-calculatorurl>
+    		</repository>
+	</distributionManagement>
 
 	<properties>
 		<java.version>18</java.version>
@@ -28,8 +35,8 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-assembly-plugin</artifactId>
             			<configuration>
-                			<source>1.8</source> <!-- Defina a versão do Java compatível com o projeto -->
-                			<target>1.8</target> <!-- Defina a versão de destino -->
+                			<source>1.8</source>
+                			<target>1.8</target>
             			</configuration>
 				<executions>
 					<execution>
@@ -50,6 +57,10 @@
 					</execution>
 				</executions>
 			</plugin>
+			<plugin>
+            			<groupId>org.apache.maven.plugins</groupId>
+            			<artifactId>maven-deploy-plugin</artifactId>
+        		</plugin>
 		</plugins>
 	</build>
 </project>
