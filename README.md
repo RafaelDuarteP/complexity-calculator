@@ -4,7 +4,7 @@ Complexity Calculator is a Java project that calculates Cyclomatic Complexity (C
 
 ## How to Use
 
-To utilize Complexity Calculator, you must have Java 8 or a higher version and Maven installed on your system. You can either download the latest project version from [this link](^1^) or clone the repository using the following command:
+To utilize Complexity Calculator, you must have Java 8 or a higher version and Maven installed on your system. You can either download the latest project version from [this link]() or clone the repository using the following command:
 
 ```bash
 git clone https://github.com/RafaelDuarteP/complexity-calculator.git
