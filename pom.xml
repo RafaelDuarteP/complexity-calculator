@@ -27,7 +27,6 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-assembly-plugin</artifactId>
-				<version>3.1</version>
             			<configuration>
                 			<source>1.8</source> <!-- Defina a versão do Java compatível com o projeto -->
                 			<target>1.8</target> <!-- Defina a versão de destino -->
